@@ -45,5 +45,13 @@
 	<true/>
 	<key>UIApplicationSupportsIndirectInputEvents</key>
 	<true/>
+	<key>MGLMapboxAccessToken</key>
+	<string>YOUR_MAPBOX_ACCESS_TOKEN</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>需要使用您的定位信息以便在地图中显示当前位置。</string>
+	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+	<string>允许应用持续获取定位，以提供持续导航与定位体验。</string>
+	<key>NSLocationAlwaysUsageDescription</key>
+	<string>允许应用访问位置以提供完整的地图功能。</string>
 </dict>
 </plist>
