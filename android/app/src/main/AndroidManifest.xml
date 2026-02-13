@@ -1,8 +1,16 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android">
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+
     <application
         android:label="hi"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
+        <meta-data
+            android:name="com.mapbox.token"
+            android:value="pk.eyJ1Ijoid2FuZ3N1bWFuIiwiYSI6ImNtbGtndGRyOTA3M3AzZHNkZXI4bTRodGEifQ.j9OMa_RDBctx-2_yGp7Okw" />
         <activity
             android:name=".MainActivity"
             android:exported="true"
